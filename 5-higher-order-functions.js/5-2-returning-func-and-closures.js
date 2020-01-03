@@ -22,18 +22,16 @@ let designerQuestion = interviewQuestion('designer');
 designerQuestion('John');
 interviewQuestion()('Marius');
 
-function retirement(retirementAge) {
-  let msg = ' years left untile retirement';
-  return function(yearOfBirth) {
+const retirement = retirementAge => {
+  let msg = ' years left until retirement.';
+  return yearOfBirth => {
     let age = new Date().getFullYear() - yearOfBirth;
     console.log(`${retirementAge - age} ${msg}`);
   };
-}
+};
 
 let retirementUS = retirement(66);
-retirementUS(1990);
-let retirementGermany = retirement(65);
-let retirementIceland = retirement(67);
+let retirementRO = retirement(65);
 
-retirementGermany(1990);
-retirementIceland(1990);
+retirementUS(1960);
+retirementRO(1960);

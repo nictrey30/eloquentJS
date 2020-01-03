@@ -35,5 +35,5 @@ retirementUS(1990);
 let retirementGermany = retirement(65);
 let retirementIceland = retirement(67);
 
-// retirementGermany(1990);
+retirementGermany(1990);
 retirementIceland(1990);

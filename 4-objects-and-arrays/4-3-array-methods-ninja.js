@@ -89,5 +89,13 @@ let marioTotal = gameScores.reduce((acc, curr) => {
 }, 0);
 console.log(`Mario's total score is ${marioTotal}`);
 
+// Subtract the numbers in the array, starting from the beginning:
+let numbers = [175, 50, 25];
+function myFunc(total, num) {
+  return total - num;
+}
+let result = numbers.reduce(myFunc);
+console.log('result', result);
+
 // find
 let firstHighScore = scoresReduce.find(el => el > 50);

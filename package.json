@@ -1,0 +1,23 @@
+{
+  "name": "eloquentJS",
+  "version": "1.0.0",
+  "description": "some exercises and notes from Eloquent JS 3rd ed. book",
+  "main": "5-higher-order-functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nictrey30/eloquentJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nictrey30/eloquentJS/issues"
+  },
+  "homepage": "https://github.com/nictrey30/eloquentJS#readme",
+  "dependencies": {
+    "random-number": "0.0.9"
+  }
+}

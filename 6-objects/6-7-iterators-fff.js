@@ -42,9 +42,9 @@ const dragonArmy = {
     };
   }
 };
-// for (const dragon of dragonArmy) {
-//   console.log(dragon);
-// }
+for (const dragon of dragonArmy) {
+  console.log(dragon);
+}
 
 let myObj = {
   prop1: 123,

@@ -13,7 +13,6 @@ const makeDragon = () => {
   const dragonAbilities = ['fire', 'ice', 'lightning'];
   return `${randomItem(dragonSizes)} ${randomItem(dragonAbilities)} dragon`;
 };
-// console.log(makeDragon());
 
 const dragonArmy = {
   [Symbol.iterator]: function*() {

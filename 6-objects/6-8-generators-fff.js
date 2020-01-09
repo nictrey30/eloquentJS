@@ -17,8 +17,8 @@ const makeDragon = () => {
 const dragonArmy = {
   [Symbol.iterator]: function*() {
     while (true) {
-      const enoughDragonsSpawned = Math.random() > 0.75;
-      if (!enoughDragonsSpawned) return;
+      const enoughDragonsSpawned = Math.random() > 0.25;
+      if (enoughDragonsSpawned) return;
       yield makeDragon();
     }
   }
